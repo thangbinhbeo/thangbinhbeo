@@ -1,8 +1,8 @@
-name: Generate Breakout SVG
+name: Generate README animations
 
 on:
   schedule:
-    - cron: "0 */24 * * *"   # chạy hàng ngày
+    - cron: "0 0 * * *"   # chạy hàng ngày lúc 00:00 UTC
   workflow_dispatch:       # cho phép chạy thủ công
 
 jobs:
@@ -10,27 +10,37 @@ jobs:
     permissions:
       contents: write
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 10
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Generate SVG
+      # 🎮 Breakout game từ contribution graph
+      - name: Generate Breakout SVG
         uses: cyprieng/github-breakout@v1.0.0
         with:
           github_username: ${{ github.repository_owner }}
 
-      - name: Move generated SVGs
+      - name: Move Breakout SVGs
         run: |
           mkdir -p images
           mv output/light.svg images/breakout-light.svg
           mv output/dark.svg images/breakout-dark.svg
 
+      # 🐍 Rắn ăn contribution
+      - name: Generate Snake SVG
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            images/snake-light.svg
+            images/snake-dark.svg?palette=github-dark&color_snake=#00ffcc&color_dots=#161b22,#3b1f6e,#5b2bb5,#9d4edd,#00ffcc
+
       - name: Commit and push SVGs
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add images/breakout-light.svg images/breakout-dark.svg
-          git commit -m "chore: update breakout SVGs" || echo "No changes"
+          git add images/
+          git commit -m "chore: update README animations" || echo "No changes"
           git push

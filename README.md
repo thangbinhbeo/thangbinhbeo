@@ -25,13 +25,8 @@
 
 ## `> whoami`
 
-<img align="right" width="200" src="https://i.pinimg.com/originals/e4/26/70/e426702edf874b181aced1e2fa5c6cde.gif" alt="Anime Pixel Coding" />
-
-```bash
-xuubinf@dev:~$ cat profile.ts
-```
-
 ```ts
+// xuubinf@dev:~$ cat profile.ts
 const binh = {
   alias:    "xuubinf",
   role:     ["Backend Engineer", "AI Engineer"],
@@ -44,6 +39,8 @@ const binh = {
   motto:    "Unserious person, serious codebase.",
 };
 ```
+
+<img align="right" width="280" src="https://i.pinimg.com/originals/e4/26/70/e426702edf874b181aced1e2fa5c6cde.gif" alt="Anime Pixel Coding" />
 
 Hey there! 👋 I'm **Binh**, aka **xuubinf** on the internet. I build the backend so the app doesn't go 💥 when more than two people log in at the same time, and I plug AI brains into systems so they *think* instead of just *crash*.
 
@@ -79,55 +76,55 @@ These days I'm deep into **event-driven microservices**, **RAG & AI agents**, an
 <div align="center">
 
 **⚙️ Backend**<br/>
-<img src="https://skillicons.dev/icons?i=cs,dotnet,nestjs,ts,nodejs,py,fastapi,go,prisma&theme=dark" /><br/>
-<img src="https://img.shields.io/badge/Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white" />
-<img src="https://img.shields.io/badge/WebSocket%20%7C%20Socket.IO-010101?style=for-the-badge&logo=socketdotio&logoColor=white" />
-<img src="https://img.shields.io/badge/Microservices-0f0c29?style=for-the-badge&logo=serverless&logoColor=00ffcc" />
-<img src="https://img.shields.io/badge/BullMQ-DC382D?style=for-the-badge&logo=redis&logoColor=white" />
-<img src="https://img.shields.io/badge/TypeORM-FE0803?style=for-the-badge&logo=typeorm&logoColor=white" />
-<img src="https://img.shields.io/badge/Gin-008ECF?style=for-the-badge&logo=gin&logoColor=white" />
-<img src="https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black" />
+<img src="images/badges/skills-cs-dotnet-nestjs-ts-nodejs-py-fastapi-go-prisma.svg" /><br/>
+<img src="images/badges/kafka.svg" />
+<img src="images/badges/websocket-socket-io.svg" />
+<img src="images/badges/microservices.svg" />
+<img src="images/badges/bullmq.svg" />
+<img src="images/badges/typeorm.svg" />
+<img src="images/badges/gin.svg" />
+<img src="images/badges/swagger.svg" />
 
 **🧠 AI / LLM**<br/>
-<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" />
-<img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langgraph&logoColor=white" />
-<img src="https://img.shields.io/badge/MCP-000000?style=for-the-badge&logo=modelcontextprotocol&logoColor=white" />
-<img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" />
-<img src="https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=claude&logoColor=white" />
-<img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" />
-<img src="https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white" />
-<img src="https://img.shields.io/badge/Qdrant-DC244C?style=for-the-badge&logo=qdrant&logoColor=white" />
-<img src="https://img.shields.io/badge/Milvus-00A1EA?style=for-the-badge&logo=milvus&logoColor=white" />
-<img src="https://img.shields.io/badge/Langfuse-0A0A0A?style=for-the-badge" />
+<img src="images/badges/langchain.svg" />
+<img src="images/badges/langgraph.svg" />
+<img src="images/badges/mcp.svg" />
+<img src="images/badges/openai.svg" />
+<img src="images/badges/claude.svg" />
+<img src="images/badges/hugging-face.svg" />
+<img src="images/badges/ollama.svg" />
+<img src="images/badges/qdrant.svg" />
+<img src="images/badges/milvus.svg" />
+<img src="images/badges/langfuse.svg" />
 
 **👁️ Computer Vision**<br/>
-<img src="https://skillicons.dev/icons?i=pytorch,opencv&theme=dark" /><br/>
-<img src="https://img.shields.io/badge/YOLO-111F68?style=for-the-badge&logo=yolo&logoColor=white" />
-<img src="https://img.shields.io/badge/ONNX-005CED?style=for-the-badge&logo=onnx&logoColor=white" />
-<img src="https://img.shields.io/badge/TensorRT%20%7C%20Triton-76B900?style=for-the-badge&logo=nvidia&logoColor=white" />
-<img src="https://img.shields.io/badge/InsightFace-1F6FEB?style=for-the-badge" />
-<img src="https://img.shields.io/badge/PaddleOCR-0062B0?style=for-the-badge&logo=paddlepaddle&logoColor=white" />
-<img src="https://img.shields.io/badge/Docling-5A2D82?style=for-the-badge" />
+<img src="images/badges/skills-pytorch-opencv.svg" /><br/>
+<img src="images/badges/yolo.svg" />
+<img src="images/badges/onnx.svg" />
+<img src="images/badges/tensorrt-triton.svg" />
+<img src="images/badges/insightface.svg" />
+<img src="images/badges/paddleocr.svg" />
+<img src="images/badges/docling.svg" />
 
 **🗄️ Data & Storage**<br/>
-<img src="https://skillicons.dev/icons?i=mongodb,postgres,redis,rabbitmq&theme=dark" /><br/>
-<img src="https://img.shields.io/badge/S3%20%2F%20SeaweedFS-2E8B57?style=for-the-badge" />
+<img src="images/badges/skills-mongodb-postgres-redis-rabbitmq.svg" /><br/>
+<img src="images/badges/s3-seaweedfs.svg" />
 
 **🖥️ Frontend & Client**<br/>
-<img src="https://skillicons.dev/icons?i=react,nextjs,vite,tailwind&theme=dark" /><br/>
-<img src="https://img.shields.io/badge/shadcn%2Fui-000000?style=for-the-badge&logo=shadcnui&logoColor=white" />
-<img src="https://img.shields.io/badge/Zustand-443E38?style=for-the-badge" />
-<img src="https://img.shields.io/badge/TanStack%20Query-FF4154?style=for-the-badge&logo=reactquery&logoColor=white" /><br/>
-<img src="https://img.shields.io/badge/Avalonia%20UI-8B44AC?style=for-the-badge&logo=dotnet&logoColor=white" />
-<img src="https://img.shields.io/badge/MVVM-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" />
-<img src="https://img.shields.io/badge/LibVLCSharp-FF8800?style=for-the-badge&logo=vlcmediaplayer&logoColor=white" />
-<img src="https://img.shields.io/badge/FFmpeg-007808?style=for-the-badge&logo=ffmpeg&logoColor=white" />
-<img src="https://img.shields.io/badge/Mapsui-2E7D32?style=for-the-badge" />
-<img src="https://img.shields.io/badge/Velopack-1E1E1E?style=for-the-badge" />
-<img src="https://img.shields.io/badge/Flutter%20(beginner)-02569B?style=for-the-badge&logo=flutter&logoColor=white" />
+<img src="images/badges/skills-react-nextjs-vite-tailwind.svg" /><br/>
+<img src="images/badges/shadcn-ui.svg" />
+<img src="images/badges/zustand.svg" />
+<img src="images/badges/tanstack-query.svg" /><br/>
+<img src="images/badges/avalonia-ui.svg" />
+<img src="images/badges/mvvm.svg" />
+<img src="images/badges/libvlcsharp.svg" />
+<img src="images/badges/ffmpeg.svg" />
+<img src="images/badges/mapsui.svg" />
+<img src="images/badges/velopack.svg" />
+<img src="images/badges/flutter-beginner.svg" />
 
 **☁️ Cloud & DevOps**<br/>
-<img src="https://skillicons.dev/icons?i=docker,kubernetes,githubactions,nginx,linux,aws,azure,git&theme=dark" />
+<img src="images/badges/skills-docker-kubernetes-githubactions-nginx-linux-aws-azure-git.svg" />
 
 </div>
 
@@ -237,16 +234,16 @@ Got a wild idea or a chaotic codebase? **Let's build something cool together!** 
 
 <div align="center">
   <a href="mailto:core.dev.xuubinf@gmail.com" target="_blank">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+    <img src="images/badges/email.svg" alt="Email" />
   </a>
   <a href="https://linkedin.com/in/thangbinhbeo" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    <img src="images/badges/linkedin.svg" alt="LinkedIn" />
   </a>
   <a href="https://facebook.com/thangbinhbeo" target="_blank">
-    <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook" />
+    <img src="images/badges/facebook.svg" alt="Facebook" />
   </a>
   <a href="https://www.instagram.com/thangbinhbeo.wqtwpe/" target="_blank">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
+    <img src="images/badges/instagram.svg" alt="Instagram" />
   </a>
 
   <br/><br/>
